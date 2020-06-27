@@ -232,7 +232,7 @@ public class Common {
 		JSONParser parser = new JSONParser();
 
 		try {
-			Object obj = parser.parse(new FileReader("./src/test/resources/configs/configFile.json"));
+			Object obj = parser.parse(new FileReader("./src/test/resources/testData/configFile.json"));
 
 			JSONArray array = (JSONArray) obj;
 			JSONObject jsonObject = (JSONObject) array.get(i);

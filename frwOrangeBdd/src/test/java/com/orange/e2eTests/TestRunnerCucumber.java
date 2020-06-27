@@ -18,7 +18,7 @@ import cucumber.api.CucumberOptions;
 		//glue={""},
 		plugin= {"html:target/cucumber-html-report", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Orange_Report.html"},
 		snippets = SnippetType.CAMELCASE,
-		tags= {("@atl")},
+		tags= {("@cnx")},
 
 		monochrome = true
 		)
