@@ -6,10 +6,6 @@
 Selenium-Cucumber est une approche de développement piloté par le comportement (Behavior-Driven Development BDD) pour écrire un script de test d'automatisation pour tester une application Web. 
 Il vous permet d'écrire et d'exécuter des tests d'acceptation / unitaires automatisés. Il est multiplateforme, open source et gratuit. Automatisez vos cas de test avec un codage minimal. Vous trouver ci dessous les étapes à suivre afin d'installer la solution d'automatisation de test "Projet xyz" sur l'environnement windows.
 
-# Documentation
-- [ Document technique ](https://github.com/agence-bmobile/dartagnan-selenium/tree/master/src/test/resources/documents)
-     - Installation
-     - Etapes prédéfinies
 
 # Technologies et Environments 
 
@@ -43,7 +39,7 @@ Il vous permet d'écrire et d'exécuter des tests d'acceptation / unitaires auto
 - Lancez Eclipse
 
 # Importation du framework 
-- Télécharger la solution depuis le dépôt Github « Dartagnan Selenium »
+- Télécharger la solution depuis le dépôt Github « Projet xyz»
 - Ouvrir Eclipse 
 - Cliquer sur File
 - Cliquer sur Importer
@@ -95,13 +91,6 @@ La classe d’exécution est sous src/test/java  TestRunnerCucumber.java
    -	Mettre le fichier apache dans Variable d’environnement  
 - Exécutez la commande suivante dans l'invite de commande
    -	mvn test
-
-# Reporting 
-Les résultats de test s’affichent dans un rapport Extent nommé Dartagnan.html dans le dossier Target / Cucumber-reports
-<p align="center">
-<img width="350" alt="y" src="https://user-images.githubusercontent.com/62071683/85183431-f17e3580-b28b-11ea-927d-f47a68c28fa0.PNG">
-</p>
-
 
 # Synthèse Framework de test auto en BDD
 - Approche agile
