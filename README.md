@@ -61,11 +61,6 @@ Il vous permet d'écrire et d'exécuter des tests d'acceptation / unitaires auto
 - Créer un package executableDrivers sous la source folder src/test/ressources
 - Copier-coller du fichier chromeDriver.exe dans le dossier src/test/ressources  executableDrive
 - Mettre le path du fichier chromeDriver.exe dans la classe src/test/java  package util  class ChromeDriverManager.java  (new File("path/chromedriver.exe"))
-# Fichier de configuration 
-Le fichier de configuration de l’url, adresses et mots de passe de test se trouve sous src/test/resources/testData
-- Dupliquer le fichier configFile-exemple.json 
-- Nommer le fichier configFile.json
-- Mettre les Adresses et les mots de passe du fichier configFile.json
 
 #  Où sont écrits les tests ?
 
